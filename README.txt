@@ -6,9 +6,6 @@
 - `script.js` — scroll reveals, particles, and YouTube music controls
 - `images/photo1.jpg` — the original photo supplied for this project
 
-## Adding the rest of the photos
-Place your additional original photos inside:
-`images/`
 
 Then duplicate a gallery card in `index.html` and change only the `src`, for example:
 `images/photo2.jpg`
