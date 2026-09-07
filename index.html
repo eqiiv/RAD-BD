@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8edf1">
+  <title>Happy 23rd Birthday, Raghadooo ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <div id="particles" aria-hidden="true"></div>
+
+  <header class="hero" id="home">
+    <nav class="nav">
+      <a class="brand" href="#home">R<span>♡</span></a>
+      <button class="music-button" id="musicButton" type="button" aria-label="Play birthday music" aria-pressed="false">
+        <span class="music-icon">♪</span>
+        <span id="musicLabel">Play Music</span>
+      </button>
+    </nav>
+
+    <div class="hero-content reveal">
+      <p class="eyebrow">A little celebration for someone special</p>
+      <h1>Happy 23rd Birthday,<br><em>Raghadooo</em></h1>
+      <div class="date-line">
+        <span></span>
+        <p>September 13, 2003</p>
+        <span></span>
+      </div>
+      <p class="hero-note">Here’s to another beautiful chapter of your story.</p>
+      <a class="scroll-cue" href="#memories" aria-label="Scroll to memories">
+        <span>Scroll to memories</span>
+        <span class="arrow">↓</span>
+      </a>
+    </div>
+
+    <div class="hero-photo reveal">
+      <div class="photo-frame">
+        <img src="images/photo1.jpg" alt="Raghadooo" />
+        <div class="frame-caption">the little Raghadooo ♡</div>
+      </div>
+      <span class="deco deco-one">✦</span>
+      <span class="deco deco-two">♡</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro section reveal" id="memories">
+      <p class="eyebrow">A collection of little moments</p>
+      <h2>23 years of being <em>you.</em></h2>
+      <p class="section-lead">Some people make ordinary moments feel a little softer, brighter, and more beautiful. This little page is a celebration of yours.</p>
+    </section>
+
+    <section class="gallery section">
+      <div class="gallery-heading reveal">
+        <span>01</span>
+        <h2>Beautiful memories</h2>
+      </div>
+
+      <!-- Add more photos by duplicating a .gallery-card and changing its image path. -->
+      <div class="gallery-grid">
+        <figure class="gallery-card large reveal">
+          <img src="images/photo1.jpg" alt="Raghadooo birthday memory" loading="lazy">
+          <figcaption>Forever a beautiful little soul.</figcaption>
+        </figure>
+
+        <div class="gallery-side">
+          <div class="quote-card reveal">
+            <span class="quote-mark">“</span>
+            <p>May the girl you were always be proud of the woman you become.</p>
+            <span class="signature">— with love, always</span>
+          </div>
+
+          <figure class="gallery-card reveal">
+            <img src="images/photo1.jpg" alt="Raghadooo" loading="lazy">
+            <figcaption>Keep smiling. It suits you.</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <p class="photo-note reveal">
+        <strong>Your photos stay yours.</strong> The images above are used exactly as provided.
+        To add more, place them in <code>images/</code> and duplicate the gallery card in <code>index.html</code>.
+      </p>
+    </section>
+
+    <section class="dedication section reveal" id="dedication">
+      <div class="dedication-inner">
+        <p class="eyebrow">02 · A little dedication</p>
+        <div class="ornament">✦ &nbsp; ♡ &nbsp; ✦</div>
+        <p class="dedication-text">Always remember that you are amazing, and you always will be. Never forget the little Raghadooo; she is always looking up to you, waiting for you to achieve all the beautiful things she once dreamed of. Keep being the wonderful person you are, and never stop believing in yourself. Happy birthday, beautiful little angel. May you always be surrounded by happiness, love, and everything your heart deserves.</p>
+        <div class="ornament">♡</div>
+      </div>
+    </section>
+
+    <section class="wish section reveal">
+      <div class="wish-card">
+        <p class="eyebrow">03 · For your next chapter</p>
+        <h2>May 23 be<br><em>your year.</em></h2>
+        <p>May it bring quiet happiness, unforgettable memories, brave dreams, and all the little things that make your heart feel at home.</p>
+        <div class="wish-line"></div>
+        <span>September 13 · 23</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer reveal">
+    <div class="footer-heart">♡</div>
+    <h2>Happy Birthday,<br><em>Raghadooo.</em></h2>
+    <p>Stay wonderful. Stay soft. Stay you.</p>
+    <span class="footer-date">13 · 09 · 2003</span>
+  </footer>
+
+  <!-- YouTube player: controlled by the music button. It is intentionally unobtrusive. -->
+  <iframe
+    id="youtubePlayer"
+    class="youtube-player"
+    title="Birthday music"
+    src="https://www.youtube-nocookie.com/embed/PqmwUxmRCng?enablejsapi=1&playsinline=1&rel=0"
+    allow="autoplay; encrypted-media"
+    aria-hidden="true">
+  </iframe>
+
+  <script src="script.js"></script>
+</body>
+</html>
